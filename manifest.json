@@ -4,24 +4,22 @@
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background.js",
-        "persistent": false
+        "service_worker": "background.js"
     },
     "action": {
         "default_icon": {
-            "128": "icon.png"
+            "128": "128.png"
         },
         "default_title": "Motivational Quote",
         "default_popup": "popup.html"
     },
     "icons": {
-        "128": "icon.png"
+        "128": "128.png"
     },
     "permissions": [
         "storage",
         "alarms",
         "activeTab",
-        "notifications",
-        "runtime"
+        "notifications"
     ]
 }

@@ -1,0 +1,64 @@
+header {
+    padding: 0 px;
+}
+
+#settings {
+    background-color: #ffb7a1;
+    border: solid #ee596b; /* salmon */
+    margin-bottom: 2.5%;
+    padding: 2.5%, 2.5%, 2.5%, 2.5%;
+    width: 300px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    margin-top: 1.25%;
+    padding: 2.5%;
+}
+
+#info {
+    color: white;
+    padding: 2.5%;
+}
+
+#footer {
+    color: #f6949f;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.slidecontainer {
+    width: 75%; /* Width of the outside container */
+    padding: 2.5%;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #ffe06b;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #ffcf4c;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffcf4c;
+    cursor: pointer;
+}

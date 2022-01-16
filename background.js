@@ -16,9 +16,9 @@ chrome.alarms.onAlarm.addListener((alarm)=> {
     if (alarm.name === 'QUOTE_ALARM') {
         chrome.notifications.create("QUOTE_NOTIF", {
             "type": "basic",
-            "iconUrl": chrome.runtime.getURL("icon.png"),
+            "iconUrl": chrome.runtime.getURL("128.png"),
             "title": "Motivational Quote, Just for You",
-            "message": "yes very motivational ~~"
+            "message": "Insert Quote Here"
         });
     }
 });
