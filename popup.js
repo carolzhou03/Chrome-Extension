@@ -7,6 +7,6 @@ slider.oninput = function() {
     output.innerHTML = this.value;
 }
 
-function showAlert(quote) {
-    alert(quote);
-}
+document.getElementById("quote-selection").addEventListener("click", function() {
+    alert('Age is an issue of mind over matter. If you don\'t mind, it doesn\'t matter. - Mark Twain');
+});
