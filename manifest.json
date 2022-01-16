@@ -1,0 +1,26 @@
+{
+  
+    "name": "Motivational Quote Generator",
+    "description": "This extension will display inspirational quotes periodically",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "128": "icon.png"
+        },
+        "default_title": "Motivational Quote",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "storage",
+        "alarms",
+        "activeTab",
+        "notifications"
+    ]
+}
