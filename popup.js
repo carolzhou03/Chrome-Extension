@@ -7,8 +7,6 @@ slider.oninput = function() {
     output.innerHTML = this.value;
 }
 
-window.onload = function () {
-    document.getElementById("quote-selection").onclick = function () {
-        alert("Hi");
-    }
+function showAlert(quote) {
+    alert(quote);
 }

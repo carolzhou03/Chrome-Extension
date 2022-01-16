@@ -47,6 +47,7 @@ button {
     text-align: center;
     padding: 7.5%, 5%;
     width: 85px;
+    height: 30px;
 }
 
 button:hover {
