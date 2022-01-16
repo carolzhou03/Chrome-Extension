@@ -1,11 +1,11 @@
 {
-  
     "name": "Motivational Quote Generator",
     "description": "This extension will display inspirational quotes periodically",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "persistent": false
     },
     "action": {
         "default_icon": {
@@ -21,6 +21,7 @@
         "storage",
         "alarms",
         "activeTab",
-        "notifications"
+        "notifications",
+        "runtime"
     ]
 }

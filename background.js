@@ -1,6 +1,13 @@
 var NOTIFICATION_ID = "Motivational Quote";
 var QUOTE_INTERVAL = 1;
 
+chrome.runtime.onInstalled.addListener(() => {
+    console.log("onInstalled...");
+  
+    // create alarm after extension is installed / upgraded
+    
+});  
+
 chrome.alarms.create('QUOTE_ALARM', {
     periodInMinutes: QUOTE_INTERVAL
 });
@@ -23,3 +30,5 @@ chrome.action.onClicked.addListener(()=> {
     });
 });
   
+async function startRequest() {
+}
